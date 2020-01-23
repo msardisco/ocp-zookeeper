@@ -1,4 +1,4 @@
-FROM centos7:latest
+FROM rhel7:latest
 
 ENV ZK_USER=zookeeper \
     ZK_DATA_DIR=/var/lib/zookeeper/data \
